@@ -53,7 +53,6 @@ function App() {
       setFormImage(e.target.value)
     }
 
-
     function handleAddGame(){
       const newGame = {
         title: formTitle,

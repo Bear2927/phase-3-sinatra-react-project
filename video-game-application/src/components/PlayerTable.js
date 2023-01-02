@@ -13,10 +13,11 @@ function PlayerTable ({players, handleSearch}) {
             <table border="3" className="play_table">
                 <thead>
                     <th>UserNames</th>
-                    <th>Rank</th>
+                    <th>Player Rank</th>
                 </thead>
                 <tbody >
                     {players.map(player => <tr key={player.id}><td className="player_ranks">{player.username}</td><td>{player.rank}</td></tr>)}
+
                 </tbody>
             </table>
         </div>

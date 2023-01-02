@@ -144,6 +144,7 @@
   background-image: url("https://c.wallhere.com/photos/44/83/vaporwave_cyberpunk_Synth_synthwave_4K_palm_trees_OutRun_digital-1854525.jpg!d");
   background-size: cover;
   padding-bottom: 600px;
+  
 }
 
 .form_input{
@@ -194,4 +195,21 @@
   border-bottom-color:rgb(105, 220, 255);
   text-shadow: 4px 3px 3px black;
   background-image: url("https://t3.ftcdn.net/jpg/02/42/75/76/360_F_242757656_LYhzT9Kzxb5XdOsNY6SYSyroxMzZBeRN.jpg");
+}
+
+.form{
+  margin-bottom: 1px;
+}
+
+.form_button{
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(94, 0, 181);
+  background-color: rgb(255, 0, 123);
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  text-shadow: 2px 1px 1px rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: bolder;
 }
